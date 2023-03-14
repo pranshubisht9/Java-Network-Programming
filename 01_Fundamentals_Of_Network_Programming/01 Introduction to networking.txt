@@ -1,0 +1,27 @@
+Networking refers to the practice of connecting two or more devices together so that they can communicate and share resources. 
+Computer networking has become an essential part of modern life, enabling individuals and organizations to connect to the Internet, 
+share data and resources, and communicate with each other across different locations.
+
+Computer networks can take many forms, ranging from small local area networks (LANs) that connect devices within a single building, 
+to wide area networks (WANs) that connect devices across multiple cities or countries. Networks can be wired or wireless, and can use 
+a variety of different technologies to connect devices together.
+
+Computer networking is typically based on a set of standards and protocols that define how devices should communicate with each other. 
+The most widely used networking protocol is TCP/IP (Transmission Control Protocol/Internet Protocol), which is used to connect devices 
+to the Internet and to each other.
+
+Some of the key benefits of networking include:
+
+Resource sharing: By connecting devices together, networks enable users to share resources such as printers, storage devices, and 
+applications.
+
+Communication: Networks enable individuals and organizations to communicate with each other across different locations, using a 
+variety of different communication tools such as email, messaging, and video conferencing.
+
+Cost savings: By sharing resources and enabling remote work, networks can help organizations reduce costs and improve efficiency.
+
+Scalability: Networks can be scaled up or down to accommodate changing needs, making them a flexible and adaptable solution for 
+businesses of all sizes.
+
+Overall, networking is an essential part of modern computing, enabling individuals and organizations to connect with each other 
+and share resources and information.

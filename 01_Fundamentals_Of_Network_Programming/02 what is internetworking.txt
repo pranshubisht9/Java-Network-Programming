@@ -1,0 +1,5 @@
+Internetworking is the practice of connecting multiple computer networks together to create a larger network that can support 
+communication and data exchange between devices on different networks. It involves connecting LANs or WANs using networking 
+devices, protocols, and technologies to create a single, unified network that spans large distances and enables sharing of 
+resources and communication between devices. It is essential for modern computing and has enabled the development of new 
+technologies and services.

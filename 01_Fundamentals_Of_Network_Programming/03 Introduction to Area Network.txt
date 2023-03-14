@@ -1,0 +1,20 @@
+An Area Network (AN) refers to a computer network that is used to connect devices within a specific geographic area, such as a building, 
+campus, or small group of buildings. ANs are designed to provide high-speed connectivity and data transfer between devices within a relatively small area.
+
+There are several types of ANs, including:
+
+Local Area Network (LAN): A LAN is a type of AN that is typically used to connect devices within a single building or campus. 
+LANs are commonly used in businesses, schools, and homes to connect computers, printers, and other devices together.
+
+Metropolitan Area Network (MAN): A MAN is a type of AN that is designed to connect devices within a specific geographic area, 
+such as a city or town. MANs are typically used by large organizations, government agencies, and universities to connect multiple buildings together.
+
+Wide Area Network (WAN): A WAN is a type of AN that is used to connect devices across large distances, such as between different cities or countries. 
+WANs are commonly used to connect different LANs and MANs together and enable communication and data transfer between devices on different networks.
+
+ANs are typically composed of a variety of networking devices, including routers, switches, hubs, and network cards, as well as cabling and wireless 
+technologies such as Ethernet and Wi-Fi. ANs also rely on a variety of networking protocols and technologies, such as TCP/IP, DNS, and DHCP, to enable 
+devices to communicate with each other and to access resources on the network.
+
+Overall, ANs are an essential part of modern computing, enabling individuals and organizations to connect devices together, share resources, and 
+communicate with each other across different locations.
