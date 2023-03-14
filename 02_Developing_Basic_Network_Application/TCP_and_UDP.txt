@@ -1,0 +1,9 @@
+TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are both protocols used for communication over the Internet.
+
+TCP is a connection-oriented protocol, which means that it establishes a virtual connection between two devices before data transmission begins. 
+This ensures reliable transmission of data, with acknowledgments and retransmissions of lost packets. TCP is used for applications that require 
+reliable, error-free transmission of data, such as email, file transfers, and web browsing.
+
+UDP, on the other hand, is a connectionless protocol, which means that it does not establish a virtual connection before data transmission. 
+This results in faster transmission of data, but without the reliability and error correction mechanisms of TCP. UDP is used for applications 
+that require fast, low-latency data transmission, such as online gaming, video streaming, and VoIP (Voice over IP) calls.

@@ -1,0 +1,22 @@
+Network topology refers to the physical or logical arrangement of devices, cables, and other components that make up a 
+computer network. In other words, it's the way in which devices are connected to form a network.
+
+There are several types of network topologies, including:
+
+Bus topology: In this topology, all devices are connected to a single cable or "bus". Data is transmitted along the cable, 
+and each device listens for its address and reads the data if it matches.
+
+Star topology: In this topology, each device is connected to a central hub or switch. Data is transmitted from one device 
+to another through the hub/switch.
+
+Ring topology: In this topology, devices are connected in a circular or ring-like pattern. Data is transmitted in one 
+direction around the ring.
+
+Mesh topology: In this topology, each device is connected to every other device in the network. This provides multiple 
+paths for data to travel, making the network more fault-tolerant and resilient.
+
+Tree topology: In this topology, devices are connected in a hierarchical tree-like structure, with the root node at the 
+top and branches below.
+
+The choice of network topology depends on factors such as the size of the network, the number of devices, the level of 
+redundancy required, and the specific needs of the network users.
