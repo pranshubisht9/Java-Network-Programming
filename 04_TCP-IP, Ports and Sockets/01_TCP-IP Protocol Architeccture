@@ -1,0 +1,27 @@
+#TCP
+
+TCP stands for Transmission Control Protocol, which is a widely used transport protocol on the Internet. TCP is responsible for ensuring reliable transmission of data between applications running on different hosts.
+
+TCP provides a connection-oriented service, which means that it establishes a logical connection between two hosts before transmitting data. It breaks up the data into segments and sends them across the network, keeping track of each segment to ensure that all segments arrive at their destination and in the correct order. If a segment is lost or corrupted during transmission, TCP will request that the missing or corrupted segment be retransmitted.
+
+TCP is a complex protocol that includes a number of mechanisms to provide reliable data transfer, flow control, congestion control, and error detection. It is used by a wide variety of applications, including web browsers, email clients, file transfer applications, and many others.
+
+
+
+#TCP/IP Protocol Architeccture
+
+The TCP/IP protocol architecture is a four-layer model that describes how data is transmitted over the internet. Each layer has a specific function in the communication process, and they work together to ensure that data is transmitted reliably and efficiently. The layers of the TCP/IP protocol architecture are as follows:
+
+Application layer: This layer is responsible for the application-specific protocols that allow applications to communicate with each other. Examples of application layer protocols include HTTP for web browsing, SMTP for email, and FTP for file transfer.
+
+Transport layer: This layer is responsible for providing reliable end-to-end data transfer between applications. The transport layer protocols are TCP and UDP. TCP provides a reliable, connection-oriented service, while UDP provides an unreliable, connectionless service.
+
+Internet layer: This layer is responsible for routing packets between networks. The protocol used at this layer is IP (Internet Protocol). IP provides a connectionless, best-effort delivery service, which means that it does not guarantee that packets will be delivered or that they will arrive in order.
+
+Link layer: This layer is responsible for transmitting data over the physical network. The protocols used at this layer depend on the type of network being used, such as Ethernet or Wi-Fi.
+
+The TCP/IP protocol architecture is a hierarchical model, with each layer building on the services provided by the layer below it. This architecture allows for flexibility and modularity, as each layer can be replaced or updated without affecting the layers above or below it.
+
+
+
+

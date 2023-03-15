@@ -1,0 +1,16 @@
+#PORTS and SOCKETS
+
+Ports and sockets are both used in computer networking to enable communication between processes or applications running on different devices.
+
+A port is a logical construct used to identify a specific process or service on a device. Ports are numbered from 0 to 65535, with well-known ports assigned to common services such as HTTP (port 80) and FTP (port 21). When data is transmitted between devices over a network, the source and destination ports are included in the header of the data packet to identify the specific processes or services that are communicating.
+
+A socket, on the other hand, is a combination of an IP address and a port number. When a process or application initiates a connection, it opens a socket by specifying the destination IP address and port number. When data is transmitted, the data is sent to the socket associated with the destination IP address and port number.
+
+Sockets are used in client-server communication. The client opens a socket to initiate a connection with the server, and the server opens a socket to listen for incoming connections. When a connection is established, data is transmitted between the client and server using the sockets associated with the connection.
+
+In summary, ports are used to identify specific processes or services on a device, while sockets are used to establish connections between processes or applications running on different devices. Ports are numbered and included in the header of data packets, while sockets are a combination of an IP address and port number used in client-server communication.
+
+
+
+
+IP Address + Port NUmber = Socket

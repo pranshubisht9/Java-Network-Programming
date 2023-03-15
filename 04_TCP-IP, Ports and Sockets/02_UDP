@@ -1,0 +1,11 @@
+UDP (User Datagram Protocol) is a transport layer protocol that is used for transmitting datagrams over a network. It is a connectionless protocol, which means that it doesn't require a dedicated connection before transmitting data.
+
+UDP is often used in situations where speed is more important than reliability, such as video streaming and online gaming. It is also used in situations where a small amount of data needs to be transmitted quickly and efficiently, such as in real-time voice communication.
+
+One of the advantages of UDP is its speed. Because it doesn't include the overhead of error-checking and flow control mechanisms that TCP has, UDP can transmit data faster than TCP.
+
+However, UDP doesn't provide reliable delivery of data. It doesn't guarantee that data will be received by the receiver, and it doesn't retransmit lost packets. This means that data may be lost in transit or arrive out of order. Applications that use UDP typically have to include their own mechanisms for error checking and retransmission.
+
+UDP also doesn't have any congestion control mechanisms, which means that it can potentially flood the network with data packets, leading to dropped packets and network congestion.
+
+In summary, UDP is a connectionless and faster protocol that is suited for applications that require speed over reliability, such as video streaming and online gaming. It doesn't guarantee reliable delivery of data and doesn't have congestion control mechanisms, so it's important to consider the specific requirements of the application when choosing between UDP and other protocols such as TCP.

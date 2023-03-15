@@ -1,0 +1,13 @@
+#IP vs TCP
+
+IP (Internet Protocol) and TCP (Transmission Control Protocol) are both protocols used in the Internet Protocol Suite to facilitate communication between devices on a network.
+
+IP is responsible for the routing of data packets between devices, while TCP provides a reliable, ordered, and error-checked delivery of data between applications running on different devices.
+
+In other words, IP is responsible for sending data from one device to another, while TCP ensures that the data is transmitted accurately and in the correct order.
+
+IP operates at the network layer (layer 3) of the OSI model, while TCP operates at the transport layer (layer 4).
+
+IP is connectionless, meaning that it does not establish a dedicated end-to-end connection between devices before transmitting data. TCP, on the other hand, is connection-oriented, meaning that it establishes a connection before transmitting data and ensures that the data is received correctly at the other end.
+
+In summary, IP is responsible for the basic delivery of data between devices, while TCP provides additional features such as error correction, flow control, and congestion control to ensure reliable delivery of data.
