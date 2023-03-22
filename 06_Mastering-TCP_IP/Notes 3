@@ -1,0 +1,13 @@
+#Protocol Data Unit (PDU)
+Data transmitted by each layer is called protocol data unit, as you can see here in this here, bidirectional
+
+
+-- Port number in TCP or UDP starts from 0 to 65535
+
+-- Poert Number 80 is for HTTP Protocol 21 for FTP protocol and more
+
+-- IPv4 uses 32 bit addresses for example: 192.168.0.1
+
+-- IPv6 uses 128 bit addresses : fe80:0000:0000:1929:0000:ab9012
+
+--Ehternet uses 64 addresses called MAC(Media Access Controll) 0!-00-27-90-AB-F0
