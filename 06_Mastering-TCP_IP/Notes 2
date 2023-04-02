@@ -1,0 +1,104 @@
+TCP/IP is combination of 2 protocols. Transmission Controll Protocol
+
+TCP + Internet Protocol IP IPS
+
+
+
+
+
+#Internet Protocol Suite
+
+-Appplication Layer (User Application)             // HTTP, SMTP, DNS and others
+-Transport Layer				// TCP, UDP and others
+-Internet Layer					// Ipv4, IPv6 and others
+-Link Layer (Physical layer)			// Ethernet , PPP
+
+
+*)Link Layer:
+
+Lowest level of layer describe physical mechanisms used to transfer information between nodes on alocal network.
+eg:Ethernet
+
+*) Internet Layer
+
+This layer provides the mechanisms for addressing network notes.
+
+
+*) Transport Layer
+Transport layer is resposible for connection between client and servers
+TCP and UPD operate in this layer
+
+*) Apllicationn Layer
+
+this layer contains network protocols such as HTTP, SMTP , DNS 
+
+
+--Each layer interacts only with the layer of two and below, but there is a must be external interaction within the stack
+
+
+
+
+/////////////////////////Example/////////////////////////////////
+
+Mail Application
+
+
+(clinet)
+
+-> User Interface
+HTML Rendering
+
+-> Content Parsers
+Text, HTML, JPG
+
+-> Network Communication
+SMTP, POP3, IMAP
+
+
+(server)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

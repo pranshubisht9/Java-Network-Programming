@@ -1,0 +1,19 @@
+#Networking Protocol Function
+
+--Maintaining session state: Create new connection and terminate existing connection
+
+--Identify nodes through addressing: Some protocols implement an addressing mechanism to identify specific nodes or group of nodes.
+
+--Controlling flow:
+
+--Guaranteeting the order of transmitted data.
+
+--Detecting and correcting error.
+
+--Formating and encoding data
+
+-- HELLO - 01010111010
+
+
+
+
