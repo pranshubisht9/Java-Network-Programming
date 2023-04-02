@@ -20,7 +20,8 @@ public class ServerSide {
             serverSocket = new ServerSocket(PORT); // STEP 1
         } catch (IOException e) {
             System.out.println("ENABLE TO ATTACH TO PORT ! EXCEPTION : "+ e.getMessage());
-            throw new RuntimeException(e);
+//            throw new RuntimeException(e);
+            System.exit(1);
         }
 
         do {
@@ -42,6 +43,7 @@ public class ServerSide {
             while (!message.equals("***CLOSES***")){
                 System.out.println("MESSAGE RECEIVED");
                 numMessage++;
+                output.println("MESSAGE NUM  " + numMessage + " : " + message); //STEP 4
                 message = input.nextLine();
             }
             output.println(numMessage + "messages received"); //STEP 4
@@ -50,12 +52,14 @@ public class ServerSide {
             System.out.println(e.getMessage());
             throw new RuntimeException(e);
         }finally {
-            System.out.println("\n * CLOSING CONNECTION... *");
+
             try {
+                System.out.println("\n * CLOSING CONNECTION... *");
                 link.close();
             } catch (IOException e) {
                 System.out.println("*UNABLE TO DISCONNECT ! : "+ e.getMessage());
-                throw new RuntimeException(e);
+//                throw new RuntimeException(e);
+                System.exit(1);
             }
         }
 
